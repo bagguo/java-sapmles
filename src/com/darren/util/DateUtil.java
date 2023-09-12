@@ -1,3 +1,5 @@
+package src.com.darren.util;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -7,6 +9,14 @@ public class DateUtil {
     public static void main(String[] args) {
         System.out.println(getOffsetUTCTime(1));
     }
+
+    public void getTimeStamp() {
+        long timeMillis = System.currentTimeMillis();
+        getTimeStamp();
+
+        new Date(timeMillis);
+    }
+
     /**
      * 返回当前时间，格式"yyyyMMddHHmmssSSS"
      */
